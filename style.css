@@ -1,0 +1,70 @@
+body {
+    color: #232323;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    background: linear-gradient(120deg, #9cafd7 , #8487c6 , #d46e97, #e47ca6) ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h1 {
+    font-size: 110%;
+}
+.GridBox{
+    font-family: Helvetica, sans-serif;
+    font-size: xx-large;
+    
+    overflow-x: hidden;
+   
+    margin: 0;
+   
+   }
+   .BoxContainer{
+    display: grid;
+    grid-template-areas: 
+     "Name  Name  Sum Sum "
+     "Name  Name  Sum  Sum  "  
+     "Edu   Edu  Work  Work  "
+     "Edu  Edu Work Work "
+     "Addi  Addi Addi Addi "
+    ;
+
+    height:  100vh; 
+    width:   100vw;
+   }
+   .SmallBox{
+       border:#232323 solid;
+       border-width: .1em;
+       text-align: center;
+   
+       transition: scale 0.3s;
+
+       padding: .5em
+   }
+   .SmallBox:hover{
+       scale: 0.95;
+   }
+   .SmallBox:active{
+       scale: 0.90;
+ 
+   }
+   #SmallBox1{
+       grid-area: Name;
+    
+   }
+   #SmallBox2{
+       grid-area: Sum;
+
+   }
+   #SmallBox3{
+       grid-area: Edu;
+
+   }
+   #SmallBox4{
+        grid-area: Work;
+
+   }
+   #SmallBox5{
+        grid-area: Addi;
+}
+ 
