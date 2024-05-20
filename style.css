@@ -1,11 +1,12 @@
 body {
     color: #232323;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
 
     background: linear-gradient(120deg, #9cafd7 , #8487c6 , #d46e97, #e47ca6);
     background-repeat: no-repeat;
     background-attachment: fixed;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 h1 {
     font-size: 110%;
