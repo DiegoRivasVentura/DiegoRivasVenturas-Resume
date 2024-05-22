@@ -24,10 +24,9 @@ h1 {
     display: grid;
     grid-template-areas: 
      "Name  Name  Sum Sum "
-     "Name  Name  Sum  Sum  "  
-     "Edu   Edu  Work  Work  "
-     "Edu  Edu Work Work "
-     "Addi  Addi Addi Addi "
+     "Name  Name  Skill1  Skill2  "  
+     "Edu   Edu  Skill1  Skill2  "
+     "Edu  Edu Skill1 Skill2 "
     ;
 
     height:  100vh; 
@@ -62,10 +61,10 @@ h1 {
 
    }
    #SmallBox4{
-        grid-area: Work;
+        grid-area: Skill1;
 
    }
    #SmallBox5{
-        grid-area: Addi;
-}
- 
+        grid-area: Skill2;
+
+   }
